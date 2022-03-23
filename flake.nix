@@ -30,6 +30,7 @@
               modules =
                 [
                   ./features/virtualization.nix
+                  ./common/system-settings.nix
                 ];
           };
         };
