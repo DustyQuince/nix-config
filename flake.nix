@@ -29,6 +29,7 @@
               inherit system pkgs;
               modules =
                 [
+                  ./desktop/hardware-configuration.nix
                   ./features/virtualization.nix
                   ./common/system-settings.nix
                 ];
