@@ -13,14 +13,24 @@
   boot.kernelModules = [ "kvm-amd" ];
   boot.extraModulePackages = [ ];
 
+  # Filezilla is slow if I don't tune these parameters
+  # It allows packets to come in bigger chunks
   fileSystems."/" =
-    { device = "/dev/disk/by-uuid/84be4124-183f-4194-9005-a2f5b9e1964f";
+    {
+      device = "/dev/disk/by-uuid/84be4124-183f-4194-9005-a2f5b9e1964f";
       fsType = "ext4";
     };
 
   fileSystems."/boot" =
-    { device = "/dev/disk/by-uuid/0323-E511";
+    {
+      device = "/dev/disk/by-uuid/0323-E511";
       fsType = "vfat";
+    };
+
+  fileSystems."/data" =
+    {
+      device = "/dev/md127p1";
+      fsType = "ext4";
     };
 
   swapDevices =
