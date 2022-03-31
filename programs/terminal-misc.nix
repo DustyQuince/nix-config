@@ -12,5 +12,6 @@
     texlive.combined.scheme-basic
     pandoc
     cmatrix # not actually useful, but fun
+    thefuck
   ];
 }
