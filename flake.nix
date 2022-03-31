@@ -77,6 +77,7 @@
               ./features/audio.nix
               ./features/printing.nix
               ./features/virtualization.nix
+              ./features/wireless.nix
               ./programs/browsers.nix
               ./programs/databases.nix
               ./programs/editors.nix
