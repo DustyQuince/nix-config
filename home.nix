@@ -1,8 +1,7 @@
-{ inputs, system, pkgs, config, ... }:
+{ system, pkgs, ... }:
 
 {
   programs = {
-    dconf.enable = true;
     zsh = {
       enable = true;
       enableAutosuggestions = true;
@@ -15,7 +14,6 @@
       };
       history = {
         size = 10000;
-        path = "${config.xdg.dataHome}/zsh/history";
       };
       oh-my-zsh = {
         enable = true;

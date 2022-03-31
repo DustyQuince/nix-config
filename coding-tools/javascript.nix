@@ -7,7 +7,6 @@
     deno
     # purescript
     purescript
-    nodePackages.purescript-language-server
     nodePackages.pulp
   ];
 

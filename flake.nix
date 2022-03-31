@@ -33,7 +33,7 @@
               home-manager.useUserPackages = true;
               home-manager.users.dustyquince = import ./home.nix
                 {
-                  inherit inputs system pkgs;
+                  inherit system pkgs;
                 };
             }
           ] ++ extraModules
@@ -45,6 +45,34 @@
           nixos-desktop = mkComputer
             [
               ./hosts/desktop.nix
+              ./features/audio.nix
+              ./features/printing.nix
+              ./features/virtualization.nix
+              ./programs/browsers.nix
+              ./programs/databases.nix
+              ./programs/editors.nix
+              ./programs/graphical-technical-tools.nix
+              ./programs/media-management.nix
+              ./programs/messaging.nix
+              ./programs/modern-unix.nix
+              ./programs/steam.nix
+              ./programs/terminal-misc.nix
+              ./users/dustyquince.nix
+              ./ui/xfce-i3.nix
+              ./ui/x-keyboard.nix
+              ./coding-tools/general.nix
+              ./coding-tools/beancount.nix
+              ./coding-tools/haskell.nix
+              ./coding-tools/javascript.nix
+              ./coding-tools/jvm.nix
+              ./coding-tools/nix-lang.nix
+              ./coding-tools/python.nix
+              ./services/cron.nix
+              ./services/openssh.nix
+            ];
+          nixos-laptop = mkComputer
+            [
+              ./hosts/framework-laptop.nix
               ./features/audio.nix
               ./features/printing.nix
               ./features/virtualization.nix

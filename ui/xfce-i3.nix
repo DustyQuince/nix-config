@@ -5,8 +5,9 @@
   environment.pathsToLink = [ "/libexec" ];
   services.xserver = {
     enable = true;
+    displayManager.defaultSession = "xfce";
     desktopManager = {
-      default = "xfce";
+      # default = "xfce";
       xterm.enable = false;
       xfce = {
         enable = true;
