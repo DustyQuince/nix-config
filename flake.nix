@@ -58,7 +58,8 @@
               ./programs/steam.nix
               ./programs/terminal-misc.nix
               ./users/dustyquince.nix
-              ./ui/xfce-i3.nix
+              # TODO xfce-i3
+              ./ui/gnome.nix
               ./ui/x-keyboard.nix
               ./coding-tools/general.nix
               ./coding-tools/beancount.nix

@@ -28,8 +28,7 @@
           "history"
           "deno"
         ];
-        theme = "pure";
-        # theme = "af-magic";
+        theme = "af-magic";
       };
     };
     git = {
