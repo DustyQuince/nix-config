@@ -16,4 +16,13 @@
   nix.extraOptions = ''
     experimental-features = nix-command flakes
   '';
+
+  environment.systemPackages = with pkgs; [
+    git
+    source-code-pro
+  ];
+
+  fonts.fonts = with pkgs; [
+    source-code-pro
+  ];
 }
