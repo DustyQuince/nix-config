@@ -27,7 +27,7 @@
         modules = (
           [
             ./common/system-settings.nix
-	    ./common/use-flakes.nix
+	          ./common/use-flakes.nix
             home-manager.nixosModules.home-manager
             {
               home-manager.useGlobalPkgs = true;
