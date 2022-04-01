@@ -1,7 +1,7 @@
 { config, lib, pkgs, ... }:
 
 {
-  systemd.services.guix-daemon = {
+  systemd.services = {
     guix-daemon = {
       enable = true;
       description = "Build daemon for GNU Guix";
