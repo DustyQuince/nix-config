@@ -39,4 +39,7 @@
 
   # high-resolution display
   hardware.video.hidpi.enable = lib.mkDefault true;
+
+  networking.hostName = "nixos-desktop"; # Define your hostname.
+
 }
