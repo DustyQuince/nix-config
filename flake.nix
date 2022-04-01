@@ -49,6 +49,7 @@
               ./features/audio.nix
               ./features/printing.nix
               ./features/virtualization.nix
+              ./features/guix-daemon.nix
               ./programs/browsers.nix
               ./programs/databases.nix
               ./programs/editors.nix
@@ -59,7 +60,6 @@
               ./programs/steam.nix
               ./programs/terminal-misc.nix
               ./users/dustyquince.nix
-              # TODO xfce-i3
               ./ui/gnome.nix
               ./ui/x-keyboard.nix
               ./coding-tools/general.nix
@@ -79,6 +79,7 @@
               ./features/printing.nix
               ./features/virtualization.nix
               ./features/wireless.nix
+              ./features/guix-daemon.nix
               ./programs/browsers.nix
               ./programs/databases.nix
               ./programs/editors.nix
