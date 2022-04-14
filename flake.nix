@@ -69,6 +69,7 @@
               ./coding-tools/jvm.nix
               ./coding-tools/nix-lang.nix
               ./coding-tools/python.nix
+              ./coding-tools/sh.nix
               ./services/cron.nix
               ./services/openssh.nix
             ];
@@ -99,6 +100,7 @@
               ./coding-tools/jvm.nix
               ./coding-tools/nix-lang.nix
               ./coding-tools/python.nix
+              ./coding-tools/sh.nix
               ./services/cron.nix
               ./services/openssh.nix
             ];
