@@ -13,5 +13,6 @@
     pandoc
     cmatrix # not actually useful, but fun
     thefuck
+    fish
   ];
 }
