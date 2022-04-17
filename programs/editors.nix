@@ -1,9 +1,5 @@
 { config, lib, pkgs, ... }:
 
 {
-  environment.systemPackages = with pkgs; [
-    vim
-    neovim
-    emacs
-  ];
+  environment.systemPackages = with pkgs; [ vim neovim emacs graphviz ];
 }

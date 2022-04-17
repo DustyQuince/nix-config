@@ -2,6 +2,7 @@
 
 {
   environment.systemPackages = with pkgs; [
+    vlc
     gimp
     digikam
     blender

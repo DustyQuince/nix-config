@@ -6,5 +6,6 @@
     nox
     lorri
     cachix
+    nixfmt
   ];
 }

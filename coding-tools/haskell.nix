@@ -3,9 +3,12 @@
 {
   environment.systemPackages = with pkgs; [
     ghc
-    haskell-language-server
-    haskellPackages.cabal-install
     stack
     ormolu
+    haskell-language-server
+    haskellPackages.cabal-install
+    haskellPackages.brittany
+    haskellPackages.hls-brittany-plugin
+    haskellPackages.hoogle
   ];
 }

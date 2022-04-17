@@ -1,7 +1,6 @@
 { config, lib, pkgs, ... }:
 
 {
-  environment.systemPackages = with pkgs; [
-    shellcheck
-  ];
+  environment.systemPackages = with pkgs; [ shellcheck ];
 }
+
