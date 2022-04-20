@@ -5,9 +5,9 @@
     nodejs
     nodePackages.js-beautify
     deno
-    # purescript
     purescript
     nodePackages.pulp
+    nodePackages.node2nix
   ];
 
 }

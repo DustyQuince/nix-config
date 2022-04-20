@@ -4,7 +4,9 @@
   environment.systemPackages = with pkgs; [
     firefox
     ungoogled-chromium
-    opera #unfree
-    google-chrome #unfree
+    brave
+    nyxt
+    opera # unfree
+    google-chrome # unfree
   ];
 }
