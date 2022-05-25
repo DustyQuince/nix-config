@@ -8,6 +8,9 @@
     purescript
     nodePackages.pulp
     nodePackages.node2nix
+    nodePackages.prettier
+    nodePackages.eslint
+    emacs27Packages.tide
   ];
 
 }

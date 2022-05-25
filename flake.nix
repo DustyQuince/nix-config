@@ -57,6 +57,7 @@
           ./ui/x-keyboard.nix
           ./coding-tools/general.nix
           ./coding-tools/beancount.nix
+          ./coding-tools/go.nix
           ./coding-tools/haskell.nix
           ./coding-tools/javascript.nix
           ./coding-tools/jvm.nix
@@ -88,6 +89,7 @@
           ./ui/x-keyboard.nix
           ./coding-tools/general.nix
           ./coding-tools/beancount.nix
+          ./coding-tools/go.nix
           ./coding-tools/haskell.nix
           ./coding-tools/javascript.nix
           ./coding-tools/jvm.nix

@@ -15,5 +15,6 @@
     calibre
     libreoffice
     hugo
+    yt-dlp
   ];
 }
