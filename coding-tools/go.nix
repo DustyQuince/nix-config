@@ -3,7 +3,7 @@
 {
   environment.systemPackages = with pkgs; [
     go
-    go-langserver
+    gopls
     gocode
     gore
     gotests
