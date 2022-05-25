@@ -10,4 +10,5 @@
     gomodifytags
     golangci-lint
   ];
+  environment.variables = { GOPATH = "/home/dustyquince/computing/go"; };
 }
