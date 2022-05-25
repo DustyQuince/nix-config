@@ -1,12 +1,6 @@
 { system, pkgs, ... }:
 
 {
-  environment.variables = {
-    EDITOR = "nvim";
-    VISUAL = "nvim";
-    GOPATH = "~/computing/go";
-  };
-
   programs = {
     zsh = {
       enable = true;
