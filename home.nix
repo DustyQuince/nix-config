@@ -1,20 +1,19 @@
 { system, pkgs, ... }:
 
 {
+  environment.variables = {
+    EDITOR = "nvim";
+    VISUAL = "nvim";
+    GOPATH = "~/computing/go";
+  };
+
   programs = {
     zsh = {
       enable = true;
       enableAutosuggestions = true;
       enableSyntaxHighlighting = true;
-      shellAliases = {
-        update = "sudo nixos-rebuild switch";
-      };
-      sessionVariables = {
-        EDITOR = "vim";
-      };
-      history = {
-        size = 10000;
-      };
+      shellAliases = { update = "sudo nixos-rebuild switch"; };
+      history = { size = 10000; };
       oh-my-zsh = {
         enable = true;
         plugins = [
@@ -46,7 +45,7 @@
         bind | split-window -h -c "#{pane_current_path}"
         bind - split-window -v -c "#{pane_current_path}"
         bind c new-window -c "#{pane_current_path}"
-        '';
+      '';
     };
   };
 }
