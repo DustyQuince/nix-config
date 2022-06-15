@@ -9,6 +9,7 @@
     gotests
     gomodifytags
     golangci-lint
+    delve
   ];
   environment.variables = { GOPATH = "/home/dustyquince/computing/go"; };
 }
